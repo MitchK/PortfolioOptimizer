@@ -31,6 +31,10 @@ Share B: ~31%
 
 Usage:
 ```
+import com.michaelkunzmann.portfoliooptimizer.PortfolioOptimizer;
+
+...
+PortfolioOptimizer opt = new PortfolioOptimizer();
 final double[] stddevs = {0.2, 0.3};
 final double[][] corrCoeffs = {
 		{1.0, 0.0},
